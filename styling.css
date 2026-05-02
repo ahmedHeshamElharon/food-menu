@@ -8,8 +8,11 @@ body {
 
 .cont {
   display: flex;
-  margin: 2px 8px;
+  position: FIXED;
+  top: 0px;
+  background-color: #eeecec;
   height: 70px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
@@ -25,7 +28,7 @@ body {
   text-transform: capitalize;
 }
 .ABOUT:hover {
-  background-color: #eeecec;
+  background-color: #bebebe;
   padding: 10px;
 }
 .menu {
@@ -35,7 +38,7 @@ body {
   text-transform: capitalize;
 }
 .menu:hover {
-  background-color: #eeecec;
+  background-color: #bebebe;
   padding: 10px;
 }
 .contact {
@@ -45,7 +48,7 @@ body {
   text-transform: capitalize;
 }
 .contact:hover {
-  background-color: #eeecec;
+  background-color: #bebebe;
   padding: 10px;
 }
 .container img {
@@ -73,7 +76,7 @@ body {
   width: 500px;
   height: auto;
 }
-.h4 {
+.h5 {
   display: inline-block;
   justify-content: center;
   position: absolute;
@@ -82,7 +85,7 @@ body {
   font-size: 25px;
 }
 
-.h5 {
+.h6 {
   display: inline-block;
   justify-content: center;
   position: absolute;
