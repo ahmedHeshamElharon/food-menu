@@ -1,0 +1,15 @@
+.link {
+  height: 100%;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: var(--base-color);
+  display: flex;
+  align-items: center;
+  padding-inline: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: #cbcbcbdd;
+}
