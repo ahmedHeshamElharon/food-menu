@@ -1,13 +1,13 @@
 :root {
   --header-height: 50px;
-  --base-color: #272626;
+  --base-color: #000000;
 }
 body {
-  background-color: rgb(129, 30, 30);
   font-family: "BJCree", serif;
 }
 * {
-  margin: 0px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 a {
