@@ -34,9 +34,5 @@ ul {
 }
 .title {
   padding: 30px 10px;
-}
-#about {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(235, 28, 224);
+  color: grey;
 }
