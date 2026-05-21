@@ -1,4 +1,5 @@
 :root {
+  --header-height: 38px;
   --header-height: 50px;
   --base-color: #272626;
 }
@@ -7,7 +8,9 @@ body {
   font-family: "BJCree", serif;
 }
 * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
