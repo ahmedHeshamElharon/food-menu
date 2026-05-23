@@ -1,10 +1,9 @@
 :root {
   --header-height: 38px;
   --header-height: 50px;
-  --base-color: #272626;
+  --base-color: #000000;
 }
 body {
-  background-color: rgb(129, 30, 30);
   font-family: "BJCree", serif;
 }
 * {
@@ -12,12 +11,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
 ul {
   list-style: none;
 }

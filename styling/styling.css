@@ -21,17 +21,60 @@ ul {
   height: 100%;
   gap: 10px;
 }
-
 .hero {
-  width: 100vw;
+  position: relative;
   height: calc(100vh - var(--header-height));
-  background-color: aqua;
   display: flex;
   align-items: end;
   background-image: url("../images/burger-1.jpg");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
+
 .title {
-  color: grey;
+  padding: 30px 10px;
+  color: rgb(97, 97, 97);
 }
+.sub-title {
+  letter-spacing: 2px;
+  font-weight: 35;
+}
+
+.about {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 100vw;
+}
+.about figure {
+  max-height: 80vh;
+}
+
+.about figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  gap: 50px;
+  font-size: medium;
+}
+.sub-text-1 {
+  color: grey;
+  padding: 20px 0px;
+  font-size: medium;
+  align-items: center;
+}
+.highlight {
+  background-color: rgb(216, 211, 211);
+}
+.main-text {
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1.5px;
+=======
+  color: grey;
